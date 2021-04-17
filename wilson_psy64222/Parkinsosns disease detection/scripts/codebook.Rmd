@@ -1,0 +1,38 @@
+---
+title: "Code Book"
+author: '@Sarah Wilson'
+date: "2021/04/04"
+output:
+  word_document: default
+  html_document: default
+---
+
+### **What are the renamed variables?**
+
+
+* *Diagnosis:*
+Participant are labeled with either a 1 or 0 in the diagnosis variable. A 1 indicates the participant does not have Parkinson Disease. A 0 indicates the participant does have Parkinson's disease. 
+
+* *ppt_id:* 
+This is the pseudonym given to each participant to ensure the data they provided in the investigation by Little et al. (2007) was kept anonymous.  
+
+* *fundamental_frequency:*
+This represents the variable Jitter:DDP which measures the fundamental frequency of an individuals speech. This particular aspect of speech is the range of frequencies (lowest to highest) in which an individual can produce. This measure has been typically used to distinguish between those with and without Parkinson's disease. 
+
+* *amp:*
+This represents the variable Shimmer:DDA which measures the amplitude of an individuals speech. Amplitude is the loudness of the speech which decreases in patients with Parkinson's disease. This measure has been typically used to distinguish between those with and without Parkinson's disease.
+
+* *noise_tonal:* 
+This represents the variable noise-to-harmonics ratio (NHR) which measures the noise to tonal component of an individuals speech.NHR measures the ratio between periodic and non-periodic components of a speech sound. This measure is important in the vocal analysis in diagnosing pathologic voices. It has also been previously used to distinguish between those with and without Parkinson's disease.
+
+* *complexity: * 
+This represents the recurrence probability density entropy (RPDE) which measures the non-linear dynamical complexity measure of an individuals speech. This measure can then rank disordered voice signals by representing the uncertainty in the period of the disordered voice signal. This is one of the novel measures tested by Little et al. (2007). 
+
+* *signal_frac_scale: * 
+This represents the Detrended Fluctuation Analysis (DFA) which measures the signal fractal scaling exponent of an individuals speech. This assesses breath noise which increases in patients with Parkinson's disease. This is the second novel measures tested by Little et al. (2007). 
+
+* *nonlinear_fundamental_frequency: *
+This represents the spread2 which measures non-linear fundamental frequency of an individuals speech. This is dependent on the amplitude and oscillations of an individuals speech, whereas linear fundamental frequency (see above) is independent of amplitude. 
+
+
+
