@@ -149,3 +149,7 @@ anim_save(filename = "animated_plot.gif",
 The graphs above show participants without Parkinson's Disease (labled as healthy) have greater non linear dynamical complexity in their speech compared to participants with Parkinsons Disease. Although, in the stable graph the line of best fit shows clear distinctions between participants with and without Parkinson's disease however this clear distinction disappers when looking at the animated graph. Additionally, looking at the animated graph, variation is greater among those without Parkinson's disease compared to participants with Parkinson's disease. This reduced variation may aid diagnosis if set values can be determined. Future research could therefore investigate if using RPDE to measure a non linear dynamical complexity is a viable tool to implement in Parkinson's disease diagnosis.  
 
 One issue to raise about this data set is that it did not came directly from the paper published by Little et al. (2007). Therefore, the data set used in this project may be invaild due to errors produced by Debasis Samal (author of the document on Kaggel). 
+
+render("input.Rmd", "all")
+title: "Parkinson-s-Disease-using-speech-as-a-biomarker"
+output: htlm
